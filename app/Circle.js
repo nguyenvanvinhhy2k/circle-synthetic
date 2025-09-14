@@ -196,7 +196,7 @@ export default function SentientWiki() {
                   {/* Submenu */}
                   {item.children && (
                     <ul
-                      className="absolute left-0 top-full mt-1 hidden max-h-60 w-56 flex-col overflow-y-auto rounded-md bg-white text-black shadow-lg group-hover:flex z-50"
+                      className="absolute left-0 top-[30px] mt-1 hidden max-h-60 w-56 flex-col overflow-y-auto rounded-md bg-white text-black shadow-lg group-hover:flex z-50"
                     >
                       {item.children.map((child, i) => (
                         <li key={i}>
